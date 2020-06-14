@@ -1,0 +1,53 @@
+body{
+  width:100%;
+}
+
+p{
+font-size: 48px;
+font-family: 'YuGothic';
+}
+
+.wrap{
+  overflow: hidden;
+}
+
+h1{
+font-size: 85px;
+font-family: 'YuGothic';
+margin-left: 20px;
+}
+
+:focus {
+  outline: none;
+}
+
+input{
+  width:90%;
+  margin:20px;
+  font-size:48px;
+}
+
+
+#text{
+-webkit-box-shadow: 0px 1px rgb(255, 255, 255,0.5);
+-moz-box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+font-family: 'YuGothic';
+}
+
+#button{
+  display: block;
+  padding: 0; 
+  border-radius: 1.6em;
+  color:white;
+  font-size: 48px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  background: linear-gradient(-45deg, rgba(87, 225, 181, 1) 0%, rgba(0, 63, 255, 1) 100%);
+  box-shadow: 0 5px 20px rgba(0, 63, 255, .5);
+}
